@@ -15,9 +15,8 @@ const App = () => {
         </div>
       ) : (
         <div className="success-msg">
-          We successfully fetched your location data. Lat:{" "}
-          {location.coordinates.lat}. Lon: {location.coordinates.lng}. Go
-          Search!
+          We successfully fetched your location data. 
+          Lat: {location.coordinates.lat}. Lon: {location.coordinates.lng}.
         </div>
       )}
 
@@ -53,12 +52,12 @@ const App = () => {
         </div>
       </form>
 
-      <button>Search</button>
-      adress, comments, activity_hours.
       <div style={{ width: "50px", height: "50px" }}>
         <Icon name="clock" />
         <Icon name="comment" />
         <Icon name="location" />
+        adress, comments, activity_hours.
+
         <Icon name="waze" />
       </div>
     </div>
