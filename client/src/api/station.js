@@ -1,5 +1,4 @@
 import axios from 'axios';
 
-const baseUrl = "https://ravkavonline.co.il/api/pos/service-station/search/";
-
-export const fetchLinks=()=>axios.get(url);
+export const fetchStations=(parameters)=>axios.get(`https://ravkavonline.co.il/api/pos/service-station/search/
+?${parameters}`);
